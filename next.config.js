@@ -19,6 +19,18 @@ module.exports = {
         port,
         pathname: `${pathname}/**`,
       },
+      {
+        protocol: 'https',
+        hostname: 'secure.gravatar.com',
+        port: '',
+        pathname: `/avatar/**`,
+      },
+      {
+        protocol: 'https',
+        hostname: 'us1.wpdemo.org',
+        port: '',
+        pathname: `/**`,
+      },
     ],
   },
 };
