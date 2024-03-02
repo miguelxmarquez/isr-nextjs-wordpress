@@ -27,7 +27,7 @@ module.exports = {
       },
       {
         protocol: 'https',
-        hostname: 'us1.wpdemo.org',
+        hostname: 'clickconexion.com',
         port: '',
         pathname: `/**`,
       },
